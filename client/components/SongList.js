@@ -16,7 +16,7 @@ class SongList extends Component {
           <li key={id} className="collection-item">
             {title}
             <i 
-              className="material-icons right"
+              className="material-icons"
               onClick={() => this.onSongDelete(id)}
             >
               delete
