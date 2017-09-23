@@ -31,7 +31,7 @@ class SongList extends Component {
      render(){
      // console.log(this.props);
      if (this.props.data.loading){
-       return <div> Loading.. </div>;
+       return <div> Loading1.. </div>;
      }
 
       return (
